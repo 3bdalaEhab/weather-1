@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(30, 32, 43);
+}
+
+.fs-6 {
+    font-size: 12px;
+}
+
+.app-container {
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+
+.bg-main-color {
+    background-color: rgb(26, 28, 37);
+}
+
+.bg-sec-color {
+    background-color: #262936;
+}
+
+
+
+.footer-icons {
+    width: 20px;
+    height: 20px;
+}
+
+.text-light-blue {
+    color: #009ad8;
+}
+.text-muted{
+    color: rgba(240, 248, 255, 0.582) !important;
+}
+.logo-type {
+    right: 60px;
+}
+
+.hhh {
+    font-size: 0.7rem !important;
+}
+
+.navbar {
+    background: #1e202b !important;
+}
+
+.navbar .active {
+    color: #009ad8 !important;
+    border: 2px #009bd8d3 solid;
+    border-radius: 20px;
+}
+
+.bor a:hover {
+    color: #009ad8 !important;
+    border: 2px #009bd8d3 solid;
+    border-radius: 20px;
+
+
+}
+
+.fined {
+    height: 40px;
+    margin: 0 5px !important;
+}
+
+.search {
+    justify-content: space-between;
+    align-items: center;
+    height: 50px !important;
+    background: #1e202b !important;
+    border-radius: 25px;
+    margin-bottom: 50px;
+}
+
+.search input {
+    outline: none !important;
+}
+
+footer {
+    height: 30vh;
+    margin: 0;
+    padding: 0;
+    background: #303344 !important;
+
+}
+
+.ico:hover {
+    color: #f0f0f0 !important;
+    transition: all 0.2s;
+}
